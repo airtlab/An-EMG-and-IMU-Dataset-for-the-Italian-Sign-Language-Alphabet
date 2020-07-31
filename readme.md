@@ -16,9 +16,9 @@ The dataset contains 780 gesture samples (30 for each letter of the alphabet) an
 	     └─ imu (object)
 	         ├─ frequency (integer)
 	         └─ data (object array, length: 400)
-	         ├─ gyroscope (floating point array, length: 3)
-	         ├─ acceleration (floating point array, length: 3)
-	         └─ orientation (floating point array, length: 4)
+	             ├─ gyroscope (floating point array, length: 3)
+	             ├─ acceleration (floating point array, length: 3)
+	             └─ orientation (floating point array, length: 4)
 
 The following fields are available:
 -  *timestamp*, a string representing the date and time of the gesture acquisition. For example, the string “09/07/20/10:03:19” indicates that the gesture and its acquisition were performed the 9th of July 2020, at 10:03:19 a.m.
