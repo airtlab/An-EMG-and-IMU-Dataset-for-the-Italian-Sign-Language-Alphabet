@@ -48,7 +48,7 @@ To run the app some preliminary steps are required:
 4. Install the Python bindings for the Myo SDK by running
  `$ pip install myo-python`
 5. Install numpy, wxPython, keras, tensorflow and psutil modules
- `$pip install numpy wxPython keras tensorflow psutil`
+ `$ pip install numpy wxPython keras tensorflow psutil`
 
 ### Usage
 
