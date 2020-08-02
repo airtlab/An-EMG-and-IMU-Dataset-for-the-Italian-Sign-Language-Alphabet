@@ -1,11 +1,11 @@
 
 # An EMG and IMU Dataset for the Italian Sign Language Alphabet 
 
-This repository contains surface EMG and IMU data collected with the Myo Gesture Control Armband about the gestures of the 26 letter of the Italian Sign Language Alphabet.
+This repository contains surface EMG and IMU data collected with the Myo Gesture Control Armband about the gestures of the 26 letters of the Italian Sign Language Alphabet.
 
 ## Data Description
 
-The dataset contains 780 gesture samples (30 for each letter of the alphabet) and is organized into 26 directories, one for each letter of the alphabet. Each directory includes 30 json file, one for each sample of the gesture representing a letter. Each json file is named using a Global Unique Identifier (GUID) and is organized as a json object as follows
+The dataset contains 780 gesture samples (30 for each letter of the alphabet) and is organized into 26 directories, one for each letter of the alphabet. Each directory includes 30 json files, one for each sample of the gesture representing a letter. Each json file is named using a Global Unique Identifier (GUID) and is organized as a json object as follows
 
 	 JSON
  	  ├─ timestamp (string)
@@ -21,8 +21,8 @@ The dataset contains 780 gesture samples (30 for each letter of the alphabet) an
 	          └─ orientation (floating point array, length: 4)
 
 The following fields are available:
--  *timestamp*, a string representing the date and time of the gesture acquisition. For example, the string “09/07/20/10:03:19” indicates that the gesture and its acquisition were performed the 9th of July 2020, at 10:03:19 a.m.
--  *duration*, an integer describing how long was the data acquisition of the gesture in milliseconds. The value is 2000 in all the json files, as the time window for the data acquisition was 2 seconds;
+-  *timestamp*, a string representing the date and time of the gesture acquisition. For example, the string “09/07/20/10:03:19” suggests that the gesture and its acquisition were performed the 9th of July 2020, at 10:03:19 a.m.
+-  *duration*, an integer describing how long was the data acquisition of the gesture in milliseconds. The value is 2000 in all the json files, since the time window for the data acquisition was 2 seconds;
 -  *emg*, an object representing the EMG data of the gesture. It has two fields
     -  *frequency*, i.e. the sampling frequency (in Hz) of the values from the EMG sensors. This value is 200 in all the json files;
     -  *data*, a 400 x 8 integer matrix. Each row is then an 8-dimensional array including the values from the 8 EMG sensors of the Myo Armband. Therefore, data is the time series of the values from the EMG sensors during the acquisition of the gesture;
@@ -68,7 +68,7 @@ The app main menu is organized into four functions:
 
 #### Add new gesture
 
-Once "Add new gesture" is clicked, a form asks for a new gesture name. This will create a folder with the gesture name (upper case) in the "Dataset" directory.
+Once "Add new gesture" is clicked, a form asks for a new gesture name. This will create a directory with the gesture name (upper case) in the "Dataset" directory.
 
 <p align="center">
   <img alt="Add new gesture form" src="Images/addnewgesture.png">
@@ -102,7 +102,7 @@ Since this app is part of a gesture recognition project, we plan to add here the
 
 #### Test model
 
-As this app is part of a gesture recognition project, we added this functionality to test gesture recognition models built in Keras (2.4) with Tensorflow (2.x) as the backend. Once "Test model" is clicked, a model file and a weight file to be tested can be selected. Uploading them results in an acquisition form where the gesture can be performed and then classified by the model.
+Since this app is part of a gesture recognition project, we added this functionality to test gesture recognition models built in Keras (2.4) with Tensorflow (2.x) as the backend. Once "Test model" is clicked, a model file and a weight file to be tested can be selected. Uploading them results in an acquisition form where the gesture can be performed and then classified by the model.
 
 <p align="center">
   <img alt="Model and weight selection form" src="Images/testmodel.png">
