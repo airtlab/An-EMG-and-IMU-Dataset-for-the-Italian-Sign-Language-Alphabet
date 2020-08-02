@@ -368,7 +368,7 @@ class MainMenu(wx.Panel):
             connect_button = wx.Button(self, label="Connect", pos=(140,140))
             connect_button.Bind(wx.EVT_BUTTON, lambda event, parent=parent: parent.onConnectMenu(event, self))
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -414,7 +414,7 @@ class MenuAddGesture(wx.Panel):
         self.text_name.SetLabel(self.text_name.GetLabel() + name)
         self.battery_level.SetLabel(self.battery_level.GetLabel() + str(battery) + "%")
         
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -461,7 +461,7 @@ class GestureList(wx.Panel):
             connect_button = wx.Button(self, label="Connect", pos=(140,140))
             connect_button.Bind(wx.EVT_BUTTON, lambda event, parent=parent: parent.onConnectMenu(event, self))
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -565,7 +565,7 @@ class Training(wx.Panel):
             connect_button = wx.Button(self, label="Connect", pos=(140,140))
             connect_button.Bind(wx.EVT_BUTTON, lambda event, parent=parent: parent.onConnectMenu(event, self))
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -609,7 +609,7 @@ class Testing(wx.Panel):
         self.text_name.SetLabel(self.text_name.GetLabel() + name)
         self.battery_level.SetLabel(self.battery_level.GetLabel() + str(battery) + "%")
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -698,7 +698,7 @@ class Prediction(wx.Panel):
         self.text_name.SetLabel(self.text_name.GetLabel() + name)
         self.battery_level.SetLabel(self.battery_level.GetLabel() + str(battery) + "%")
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -868,7 +868,7 @@ class Result(wx.Panel):
         self.text_name.SetLabel(self.text_name.GetLabel() + name)
         self.battery_level.SetLabel(self.battery_level.GetLabel() + str(battery) + "%")
 
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 
@@ -926,7 +926,7 @@ class Acquisition(wx.Panel):
         self.text_name.SetLabel(self.text_name.GetLabel() + name)
         self.battery_level.SetLabel(self.battery_level.GetLabel() + str(battery) + "%")
         
-        im = wx.Image('images/myo.png', wx.BITMAP_TYPE_ANY)
+        im = wx.Image('Images/myo.png', wx.BITMAP_TYPE_ANY)
         im.Rescale(120,120)
         image = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im), pos=(115,10))
 

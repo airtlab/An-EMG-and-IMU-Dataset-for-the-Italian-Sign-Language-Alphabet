@@ -66,6 +66,12 @@ The app main menu is organized into four functions:
   <img alt="Acquisition app main menu" src="Images/mainmenu.png">
 </p>
 
+In case the app is launched without a connected Myo Armband, an alert message warns the user, and the connection can be started from the app itself.
+
+<p align="center">
+  <img alt="Device not connect" src="Images/connecttodevice.png">
+</p>
+
 #### Add new gesture
 
 Once "Add new gesture" is clicked, a form asks for a new gesture name. This will create a directory with the gesture name (upper case) in the "Dataset" directory.
