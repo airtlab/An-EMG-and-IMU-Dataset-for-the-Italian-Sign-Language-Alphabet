@@ -57,22 +57,32 @@ To run the app some preliminary steps are required:
 2. Once the Myo Armband is connected, run `$ python app.py`
 
 The app main menu is organized into four functions:
-1. [Add new gesture](# Add new gesture)
-2. [Gesture list](# Gesture list)
-3. [Train model](# Train model)
-4. [Test model](# Test model)
+1. Add new gesture
+2. Gesture list
+3. Train model
+4. Test model
 
-![](Images/mainmenu.png)
+<p align="center">
+  <img alt="Acquisition app main menu" src="Images/mainmenu.png">
+</p>
 
 #### Add new gesture
 
 Once "Add new gesture" is clicked, a form asks for a new gesture name. This will create a folder with the gesture name (upper case) in the "Dataset" directory.
 
-![](Images/addnewgesture.png)
+<p align="center">
+  <img alt="Add new gesture form" src="Images/addnewgesture.png">
+</p>
 
 Then, a gesture acquisition can be started. The time window of the acquisition (2 seconds) is highlighted by a progress bar. At the end of the acquisition, the gesture sample can be saved or deleted, and a new acquisition can be started.
 
-![](Images/gestureacquisitionstart.png) ![](Images/gestureacquisitioncomplete.png)
+<p align="center">
+  <img alt="Gesture acquisition" src="Images/gestureacquisitionstart.png">
+</p>
+
+<p align="center">
+  <img alt="Gesture acquisition completed" src="Images/gestureacquisitioncomplete.png">
+</p>
 
 #### Gesture list
 
@@ -82,7 +92,9 @@ Selecting "Gesture list" in the app menu allows to check the list of the availab
 - a gesture (and therefore its directory) can be renamed, by selecting it and clicking "Rename";
 - a gesture (and therefore its directory) can be removed, by selecting it and clicking "Delete";
 
-![](Images/gesturelist.png)
+<p align="center">
+  <img alt="Gesture list" src="Images/gesturelist.png">
+</p>
 
 #### Train model
 
@@ -92,4 +104,14 @@ Since this app is part of a gesture recognition project, we plan to add here the
 
 As this app is part of a gesture recognition project, we added this functionality to test gesture recognition models built in Keras (2.4) with Tensorflow (2.x) as the backend. Once "Test model" is clicked, a model file and a weight file to be tested can be selected. Uploading them results in an acquisition form where the gesture can be performed and then classified by the model.
 
-![](Images/testmodel.png) ![](Images/testacquisition.png) ![](Images/testresult.png)
+<p align="center">
+  <img alt="Model and weight selection form" src="Images/testmodel.png">
+</p>
+
+<p align="center">
+  <img alt="Test gesture acquisition" src="Images/testacquisition.png">
+</p>
+
+<p align="center">
+  <img alt="Test result" src="Images/testresult.png">
+</p>
