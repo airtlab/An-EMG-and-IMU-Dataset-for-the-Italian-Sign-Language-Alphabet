@@ -57,10 +57,10 @@ To run the app some preliminary steps are required:
 2. Once the Myo Armband is connected, run `$ python app.py`
 
 The app main menu is organized into four functions:
-1. Add new gesture
-2. Gesture list
-3. Train model
-4. Test model
+1. [Add new gesture](#add-new-gesture)
+2. [Gesture list](#gesture-list)
+3. [Train model](#train-model)
+4. [Test model](#test-model)
 
 <p align="center">
   <img alt="Acquisition app main menu" src="Images/mainmenu.png">
