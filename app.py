@@ -877,7 +877,7 @@ class Result(wx.Panel):
         t = wx.StaticText(self, label='Did I guess?', pos=(120,170))
         t.SetFont(wx.Font(10, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_BOLD))
 
-        im1 = wx.Image('images/' + str(prediction) + '.jpg', wx.BITMAP_TYPE_ANY)
+        im1 = wx.Image('Images/' + str(prediction) + '.jpg', wx.BITMAP_TYPE_ANY)
         im1.Rescale(160,160)
         image1 = wx.StaticBitmap(self, -1, wx.BitmapFromImage(im1), pos=(90,200))
 
