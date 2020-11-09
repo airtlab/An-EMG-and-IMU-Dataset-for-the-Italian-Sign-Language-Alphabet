@@ -47,6 +47,7 @@ Bibtex entry:
 	  author = "Iacopo Pacifici and Paolo Sernani and Nicola Falcionelli and Selene Tomassini and Aldo Franco Dragoni",
 	 }
 
+The paper is open access and available here <https://www.sciencedirect.com/science/article/pii/S2352340920313378>.
 
 ## Data Acquisition App
 
