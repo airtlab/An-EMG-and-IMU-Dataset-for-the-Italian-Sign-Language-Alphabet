@@ -32,7 +32,22 @@ The following fields are available:
 
 ## Dataset Release Agreement
 
-The dataset is freely released for research and educational purposes.
+The dataset is freely released for research and educational purposes. Please cite as
+
+	 I. Pacifici, P. Sernani, N. Falcionelli, S. Tomassini, A. F. Dragoni, A surface electromyography and inertial measurement unit dataset for the italian sign language alphabet, Data in Brief 33 (2020). doi:10.1016/j.dib.2020. 106455.
+	 
+Bibtex entry:
+
+	 @article{Pacifici2020,
+	  title = "A surface electromyography and inertial measurement unit dataset for the Italian Sign Language alphabet",
+	  journal = "Data in Brief",
+	  volume = "33",
+	  eid = "106455",
+	  year = "2020",
+	  doi = "10.1016/j.dib.2020.106455",
+	  author = "Iacopo Pacifici and Paolo Sernani and Nicola Falcionelli and Selene Tomassini and Aldo Franco Dragoni",
+	 }
+
 
 ## Data Acquisition App
 
