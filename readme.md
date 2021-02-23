@@ -41,7 +41,7 @@ Bibtex entry:
 	  title = "A surface electromyography and inertial measurement unit dataset for the Italian Sign Language alphabet",
 	  journal = "Data in Brief",
 	  volume = "33",
-	  eid = "106455",
+	  pages = "106455",
 	  year = "2020",
 	  doi = "10.1016/j.dib.2020.106455",
 	  author = "Iacopo Pacifici and Paolo Sernani and Nicola Falcionelli and Selene Tomassini and Aldo Franco Dragoni",
